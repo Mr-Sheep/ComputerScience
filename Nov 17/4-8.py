@@ -1,0 +1,3 @@
+#4-8.py
+for num in range(1,11):
+	print(num**3)
