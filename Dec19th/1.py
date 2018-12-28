@@ -14,6 +14,7 @@ x_str = input ('Plz inout x: ')
 n_str = input ('Plz input n: ')
 n = int(n_str)
 x = int(x_str)
+sum =1
 #if x < 0:
 #	answer = 1/x**n
 #	print (answer)
@@ -24,3 +25,9 @@ x = int(x_str)
 #	print ('0')
 
 for i in range(0,n):
+	sum = sum*x
+if x < 0:
+	sum = 1/sum
+
+print (sum)
+
