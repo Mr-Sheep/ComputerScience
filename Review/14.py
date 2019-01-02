@@ -19,3 +19,6 @@ while len(universities) > 2:
 
 for universitie in universities:
 	print ('I will still attend to '+ universitie)
+#Deleting
+del universities[0:]
+print (universities)
