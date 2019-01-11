@@ -1,0 +1,18 @@
+friends={
+	'Joy':{
+		'age':'14',
+		'school':'JXIHS',
+	},
+	'Marco':{
+		'age':'156',
+		'school':'JXIHS',
+	},
+	'Robin':{
+		'age':'165',
+		'school':'JXIHS',
+	},
+	'Tony':{
+		'age':'155',
+		'school':'JXIHS',
+	},
+}

@@ -1,28 +1,27 @@
-gpas = [1.3, 3.4, 3.9, 3.3, 2.8, 2.2, 3.7]
+gpas = ['B+','C+','D','A','B+','A','A-']
 new_list = []
-
 for gpa in gpas:
-	if gpa < 1.0:
-		grade = 'Below 65'
-	elif gpa < 1.3:
-		grade = "65-66"
-	elif gpa < 1.7:
+	if gpa == 'D':
+		grade = '65-67'
+	elif gpa == 'D+':
 		grade = "67-69"
-	elif gpa < 2.0:
+	elif gpa == 'C-':
 		grade = "70-72"
-	elif gpa < 2.3:
+	elif gpa == 'C':
 		grade = "73-76"
-	elif gpa < 2.7:
+	elif gpa == 'C+':
 		grade = "77-79"
-	elif gpa < 3.0:
+	elif gpa == 'B-':
 		grade = "80-82"
-	elif gpa < 3.3:
+	elif gpa == 'B':
 		grade = "83-86"
-	elif gpa < 3.7:
+	elif gpa == 'B+':
 		grade = "87-89"
-	elif gpa < 4.0:
+	elif gpa == 'A-':
+		grade = "90-92"
+	elif gpa == 'A':
 		grade = "93-96"
-	elif gpa == 4.0:
+	elif gpa == 'A+':
 		grade = "97-100"
 	else:
 		raise Exception(f"There was a problem with {gpa}")
